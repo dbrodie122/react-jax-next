@@ -1,0 +1,20 @@
+{
+  "name": "react-jax-next",
+  "version": "1.0.0",
+  "description": "A basic react app using Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "unfetch": "^4.0.1"
+  }
+}
