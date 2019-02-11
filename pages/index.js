@@ -1,6 +1,5 @@
 import React from 'react';
-import fetch from 'isomorphic-unfetch'
-import CharacterList from '../components/CharacterList';
+import Navigation from '../components/Navigation';
 
 class Home extends React.Component {
     constructor(props){
@@ -15,17 +14,9 @@ class Home extends React.Component {
 
     render(){
         return (
-            <div className='container'>
-                <CharacterList characters={this.props.data.results}/>
-                <style jsx>{`
-                .container {
-                    width: 100vw;
-                    height: 100vh;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                `}</style>
+            <div>
+                <Navigation />
+                <h1>My First Little Next.js App...featuring Star Wars!</h1>
             </div>
         );
 

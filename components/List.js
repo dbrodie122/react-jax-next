@@ -1,10 +1,10 @@
 import React from 'react';
-import Character from './Character';
+import Item from './Item';
 
-const CharacterList = (props) => {
+const List = (props) => {
     return (
         <ul>
-            {props.characters.map(char => <Character key={char.name} characterData={char}/>)}
+            {props.data.map(dataItem => <Item key={dataItem.name} data={dataItem}/>)}
             <style jsx>{`
             ul {
                 list-style: none;
@@ -21,4 +21,4 @@ const CharacterList = (props) => {
     )
 };
 
-export default CharacterList;
+export default List;

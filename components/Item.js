@@ -1,8 +1,8 @@
 import React from 'react';
-const Character = (props) => {
+const Item = (props) => {
     return (
         <li>
-            { props.characterData.name }
+            { props.data.name }
             <style jsx>{`
             li {
                 width: 260px;
@@ -12,6 +12,7 @@ const Character = (props) => {
                 box-sizing: border-box;
                 border: 1px solid black;
                 transition: all 0.5s;
+                cursor: pointer;
             }
             li:hover {
                 background-color: rgba(123, 456, 789, 0.5)
@@ -21,4 +22,4 @@ const Character = (props) => {
     )
 };
 
-export default Character;
+export default Item;
