@@ -1,5 +1,6 @@
 import React from 'react';
 import fetch from 'isomorphic-unfetch'
+import CharacterList from '../components/CharacterList';
 
 class Home extends React.Component {
     constructor(props){
@@ -13,9 +14,19 @@ class Home extends React.Component {
       }
 
     render(){
-        console.log(this.props);
         return (
-            <div>Hello, Next!</div>
+            <div className='container'>
+                <CharacterList characters={this.props.data.results}/>
+                <style jsx>{`
+                .container {
+                    width: 100vw;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                `}</style>
+            </div>
         );
 
     }
