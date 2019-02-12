@@ -2,17 +2,13 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 class Home extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
 
     }
-    static async getInitialProps({ req }) {
-        const response = await fetch('https://swapi.co/api/people');
-        const data = await response.json();
-        return { data }
-      }
 
-    render(){
+
+    render() {
         return (
             <div>
                 <Navigation />
