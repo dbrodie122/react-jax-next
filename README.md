@@ -1,3 +1,19 @@
+# React JAX Next.js Demo
+
+## Requirements
+- Node.js
+- Git
+- Text editor of choice
+
+## Instructions
+1. Clone the repo.
+2. If you are on the "Solution" branch -> `git checkout master`
+3. `npm install` install dependencies
+4. `npm run dev` run the application
+5. View the starter app at localhost:3000
+
+## Plan/Outline/Tasks
+
 1. Introduce Next
 
 2. Explain that this will be a simple app showcasing Next features and basic react components - we won't do every little thing.
