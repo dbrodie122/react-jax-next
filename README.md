@@ -42,7 +42,7 @@
 
 14. Create list component
 
-15. Pass the data directly to a <li>
+15. Pass the data directly to a list item tag
 
 16. TASK(ITEM): Create Item component
 
